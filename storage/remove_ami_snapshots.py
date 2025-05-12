@@ -33,7 +33,7 @@ def deregister_amis_from_file(file_path):
         print(f"Deregistered AMI: {ami_id}")
 
 # Specify the path to the file containing the AMI IDs
-file_path = r'C:\Users\tobyc\OneDrive\Desktop\Work\Scripts\Python\ami_list.txt'
+file_path = r'C:\Users\username\desktop\aami_list.txt'
 
 # Call the function to deregister the AMIs and delete associated snapshots
 deregister_amis_from_file(file_path) 
